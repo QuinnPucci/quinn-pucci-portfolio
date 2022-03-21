@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Nav from "../Nav"
 import About from "../About"
-// import Portfolio from "../Portfolio"
+import Portfolio from "../Portfolio"
 import Resume from "../Resume"
 // import ContactForm from "../Contact"
 
@@ -11,8 +11,8 @@ function Header() {
         switch (currentPage) {
             case "About":
                 return <About />;
-            // case "Portfolio":
-            //     return <Portfolio />;
+            case "Portfolio":
+                return <Portfolio />;
             case "Resume":
                 return <Resume />;
             // case "Contact":

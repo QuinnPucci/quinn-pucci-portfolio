@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <div className="footer">
         <a href="https://github.com/QuinnPucci">GitHub</a>
-        <span> | </span>
+        <span> | pucci.quinn@gmail.com </span>
       </div>
     </footer>
   );

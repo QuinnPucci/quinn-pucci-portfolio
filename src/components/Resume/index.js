@@ -3,8 +3,8 @@ import React from "react"
 function Resume() {
   return (
     <div className="resume-section">
-        <h1>My Resume!</h1>
-        <p>Downloadable Resume goes here.</p>
+        <h1>Resume</h1>
+
         <a
           className="download-btn"
           href="https://drive.google.com/file/d/1yyEbgpWrfqQVMaC6hREGebBj_zhb8SkR/view?usp=sharing"
