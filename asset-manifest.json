@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/quinn-pucci-portfolio/static/css/main.5c4b6e17.css",
+    "main.js": "/quinn-pucci-portfolio/static/js/main.ebbef35f.js",
+    "static/js/787.3c5dab6c.chunk.js": "/quinn-pucci-portfolio/static/js/787.3c5dab6c.chunk.js",
+    "static/media/recipe.png": "/quinn-pucci-portfolio/static/media/recipe.4b725378d905f969d5ca.png",
+    "static/media/runbuddy.png": "/quinn-pucci-portfolio/static/media/runbuddy.56b84df06ad62f816553.png",
+    "static/media/petbook.png": "/quinn-pucci-portfolio/static/media/petbook.dd36666a1585ef82fd8d.png",
+    "static/media/generator.png": "/quinn-pucci-portfolio/static/media/generator.0252ccebb221755c26e5.png",
+    "static/media/quiz.png": "/quinn-pucci-portfolio/static/media/quiz.0c8cdfd4e62b211bafbf.png",
+    "index.html": "/quinn-pucci-portfolio/index.html",
+    "main.5c4b6e17.css.map": "/quinn-pucci-portfolio/static/css/main.5c4b6e17.css.map",
+    "main.ebbef35f.js.map": "/quinn-pucci-portfolio/static/js/main.ebbef35f.js.map",
+    "787.3c5dab6c.chunk.js.map": "/quinn-pucci-portfolio/static/js/787.3c5dab6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c4b6e17.css",
+    "static/js/main.ebbef35f.js"
+  ]
+}
