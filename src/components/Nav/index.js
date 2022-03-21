@@ -1,13 +1,13 @@
 import React from "react";
 
 function Nav(props) {
-  const categories = ["About", "Portfolio", "Resume", "Contact"];
+  const categories = ["About", "Portfolio", "Resume", "Contact"]
 
   return (
     <div className="navbar">
       <h2>
         <a className="name-header" href="/">
-          Michelle Stone
+          Quinn Pucci
         </a>
       </h2>
       <ul className="navtabs">
@@ -31,7 +31,7 @@ function Nav(props) {
         ))}
       </ul>
     </div>
-  );
+  )
 }
 
-export default Nav;
+export default Nav
