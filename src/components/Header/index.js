@@ -3,7 +3,7 @@ import Nav from "../Nav"
 import About from "../About"
 import Portfolio from "../Portfolio"
 import Resume from "../Resume"
-// import ContactForm from "../Contact"
+import ContactForm from "../Contact"
 
 function Header() {
     const [currentPage, handlePageChange] = useState("About")
@@ -15,8 +15,8 @@ function Header() {
                 return <Portfolio />;
             case "Resume":
                 return <Resume />;
-            // case "Contact":
-            //     return <ContactForm />;
+            case "Contact":
+                return <ContactForm />;
 
             default:
                 return <About />;
