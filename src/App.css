@@ -1,38 +1,108 @@
-.App {
+main {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+:root {
+  --primary: #0d0c0e;
+  --secondy: #4889d3;
+  --tertiary: #6b6b6b;
+  --accent: #451aaa;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Heebo", sans-serif;
+  margin: 5px 0;
+  color: var(--secondy);
+}
+
+p,
+span,
+a {
+  font-family: "Hind", sans-serif;
+  color: var(--tertiary);
+}
+
+body {
+  background-color: #17c5bc;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.name-header {
+  font-size: 3.5rem;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+  display: block;
+  width: 100%;
+  background-color: #2abafd;
+  top: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navtabs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.cats {
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#about {
+  font-family: "Hind", sans-serif;
+  color: var(--primary);
+  font-size: 40px;
+}
+
+.portrait {
+  clip-path: circle();
+  width: 250px;
+}
+
+#aboutMe {
+  margin: 0 auto;
+  max-width: 40%;
+}
+
+li {
+  list-style: none;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1a1423;
+}
+
+input,
+textarea {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  display: block;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
 }
